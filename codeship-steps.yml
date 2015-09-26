@@ -1,0 +1,4 @@
+- service: app
+  command: env
+- service: app
+  command: sh -c "echo $FOO $BAZZ"
